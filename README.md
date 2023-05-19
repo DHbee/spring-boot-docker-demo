@@ -1,4 +1,4 @@
-
+# Docker login
 > docker login 
 
 Default, connects you to docker hub.
@@ -8,6 +8,12 @@ Asks you to supply username & password
 
 loginto to remote repository
 
-Push the image to docker hub
+# Docker file Commands
 
+RUN, COPY, ENV 
+above commands will execute inside container
+
+- COPY -> copies the files inside container
+- RUN -> execute linux commands inside the container
+- EVN -> set environment variables inside the container
 
