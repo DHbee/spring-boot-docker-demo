@@ -16,6 +16,7 @@ public class SpringBootDockerDemoApplication {
 	@RequestMapping("/health")
 	public String health(){
 		System.out.println("service is up");
+		System.out.println("my prod production hf");
 		return "service is reachable -> UP";
 	}
 
